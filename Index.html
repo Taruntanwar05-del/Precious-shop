@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precious Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf6e3;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #e74c3c;
+      margin-bottom: 30px;
+    }
+    .product {
+      background-color: white;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 300px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #2c3e50;
+      margin: 10px 0;
+    }
+    p {
+      font-size: 18px;
+      color: #34495e;
+    }
+    button {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #1e8449;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Precious Store</h1>
+
+<!-- Product 1: Necklace -->
+<div class="product">
+  <img src="https://via.placeholder.com/250x250.png?text=Necklace" alt="Necklace">
+  <h2>Elegant Necklace</h2>
+  <p>Price: ₹25</p>
+  <button onclick="buyNow('Elegant Necklace')">Buy Now</button>
+</div>
+
+<!-- Product 2: Men Hoodie -->
+<div class="product">
+  <img src="https://via.placeholder.com/250x250.png?text=Men+Hoodie" alt="Men Hoodie">
+  <h2>Men Hoodie</h2>
+  <p>Price: ₹45</p>
+  <button onclick="buyNow('Men Hoodie')">Buy Now</button>
+</div>
+
+<!-- Product 3: Lower Mugs -->
+<div class="product">
+  <img src="https://via.placeholder.com/250x250.png?text=Lower+Mugs" alt="Lower Mugs">
+  <h2>Lower Mugs</h2>
+  <p>Price: ₹15</p>
+  <button onclick="buyNow('Lower Mugs')">Buy Now</button>
+</div>
+
+<!-- Product 4: Men T-Shirt -->
+<div class="product">
+  <img src="https://via.placeholder.com/250x250.png?text=Men+T-Shirt" alt="Men T-Shirt">
+  <h2>Men T-Shirt</h2>
+  <p>Price: ₹20</p>
+  <button onclick="buyNow('Men T-Shirt')">Buy Now</button>
+</div>
+
+<script>
+  function buyNow(item) {
+    alert("You clicked Buy Now for " + item + ". Payment not connected yet!");
+  }
+</script>
+
+</body>
+</html>
